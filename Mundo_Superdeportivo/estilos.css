@@ -15,6 +15,7 @@ header {
 h1 {
   margin: 0;
   color: red;
+  text-transform: uppercase;
 }
 
 nav 
