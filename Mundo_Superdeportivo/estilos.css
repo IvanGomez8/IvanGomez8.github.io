@@ -23,7 +23,7 @@ nav
   margin-top: 20px;
 }
 
-nav ol{
+ol{
   list-style: none;
   padding: 0;
   margin: 0;
@@ -31,14 +31,14 @@ nav ol{
   justify-content: center;
 }
 
-nav a {
+a {
   color: white;
   text-decoration: none;
   margin: 10px;
   font-weight: bold;
 }
 
-nav a:hover {
+a:hover {
   color: red;
 }
 
@@ -67,4 +67,10 @@ footer {
   font-size: 0.9em;
   color: white;
   margin-top: 40px;
+}
+.paginas-interes a{
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
 }
