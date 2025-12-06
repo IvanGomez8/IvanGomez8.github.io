@@ -4,25 +4,21 @@ body {
   font-family: "Zen Dots", sans-serif;
   margin: 0;
 }
-
 header {
   background-color: #3d3d3d;
   text-align: center;
   padding: 20px;
   border-bottom: 2px solid red;
 }
-
 h1 {
   margin: 0;
   color: red;
   text-transform: uppercase;
 }
-
 nav 
 {
   margin-top: 20px;
 }
-
 ol{
   list-style: none;
   padding: 0;
@@ -30,36 +26,29 @@ ol{
   display: flex;
   justify-content: center;
 }
-
 a {
   color: white;
   text-decoration: none;
   margin: 10px;
   font-weight: bold;
 }
-
 a:hover {
   color: red;
 }
-
 #inicio {
   text-align: center;
   padding: 40px 20px;
 }
-
 .presentacion {
   display: flex;
   justify-content: center; 
 }
-
 .presentacion img {
   width: 45%;
   max-width: 500px;
   border-radius: 10px;
-  border: 2px solid red;
   margin: 0 10px; 
 }
-
 footer {
   background-color: #2c2c2c;
   text-align: center;
@@ -74,3 +63,4 @@ footer {
   margin: 10px;
   font-weight: bold;
 }
+
