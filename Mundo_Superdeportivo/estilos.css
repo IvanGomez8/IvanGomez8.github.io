@@ -15,17 +15,6 @@ h1 {
   color: red;
   text-transform: uppercase;
 }
-nav 
-{
-  margin-top: 20px;
-}
-ol{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
 a {
   color: white;
   text-decoration: none;
@@ -59,7 +48,7 @@ footer {
 .paginas-interes a{
   color: white;
   text-decoration: none;
-  margin: 10px;
+  margin: 20px;
   font-weight: bold;
 }
 #inicio{
@@ -67,4 +56,43 @@ footer {
 }
 p{
   padding: 10px;
+}
+nav{
+  margin: 10px;
+}
+nav ol {
+  padding: 0;
+  margin: 0;
+  display: flex;           
+  justify-content: center;  
+  gap: 20px;               
+  list-style: none;  
+  margin-top: 20px;       
+}
+@media (max-width: 480px) {
+  nav ol {
+    flex-direction: column; 
+    align-items: center;    
+    gap: 10px;              
+  }
+
+  nav ol li {
+    width: 100%;           
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  video, iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;   
+    padding: 0;     
+  }
 }
