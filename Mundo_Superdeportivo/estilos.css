@@ -43,7 +43,7 @@ footer {
   text-align: center;
   padding: 20px;
   color: white;
-  margin-top: 50px;
+  margin-top: 68px;
 }
 .paginas-interes a{
   color: white;
@@ -68,6 +68,9 @@ nav ol {
   gap: 20px;               
   list-style: none;  
   margin-top: 20px;       
+}
+.posicion{
+  color:yellow;
 }
 @media (max-width: 480px) {
   nav ol {
