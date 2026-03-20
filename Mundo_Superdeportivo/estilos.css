@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: black;
   color: #fff;
@@ -88,15 +91,24 @@ nav ol {
   
 }
 @media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
   nav ol {
     flex-direction: column; 
     align-items: center;    
-    gap: 10px;              
+    gap: 5px;
+    margin-top: 10px;       
   }
-
   nav ol li {
     width: 100%;           
     text-align: center;
+  }
+  p {
+    padding: 5px 10px; 
+  }
+  footer {
+    padding: 10px; 
   }
   img {
     max-width: 100%;
@@ -109,7 +121,7 @@ nav ol {
     margin: 0 auto;
   }
   h1 {
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;   
     padding: 0;     
   }
